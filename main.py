@@ -3,7 +3,7 @@ from utils.readers import load_pickle, check_pickle_integrity
 from random import shuffle
 
 import tkFileDialog as fd
-import unicodecsv as csv
+# import unicodecsv as csv
 import glob, os
 import sqlite3
 
