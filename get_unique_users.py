@@ -11,7 +11,7 @@ RESULTS_PATH = "results"
 pickles_directory = fd.askdirectory(title="Choose directory with pickles")
 
 # Choose only files that end with .pkl
-pickle_files = list(glob.glob(os.path.join(pickles_directory, "*.pkl")))[:100]
+pickle_files = list(glob.glob(os.path.join(pickles_directory, "*.pkl")))
 
 # Create results folder if not exists 
 if not os.path.exists(RESULTS_PATH): 
